@@ -1,5 +1,3 @@
-package arabatzis;
-
 import java.util.Iterator;
 import java.util.LinkedList;
 
@@ -33,8 +31,6 @@ public class Album {
 		return false;
 	}
 
-
-
 	private boolean checkSong(String songName, LinkedList<Song> list) {
 		Iterator<Song> songIterator = list.iterator();
 		while (songIterator.hasNext()) {
@@ -56,5 +52,4 @@ public class Album {
 			}
 		return null;
 	}
-
 }
